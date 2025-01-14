@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+  background-image: url('/Assets/sound-icons-off.svg');
+  background-repeat: repeat;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}

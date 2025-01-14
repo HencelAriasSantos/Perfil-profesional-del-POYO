@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki de Ejemplo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="background-container">
+    <img src="./Assets/star-single.png">
+  </div>
+  <div class="container">
+    <header>
+      <h1>Wiki de kirby</h1>
+      <img src="/Assets/Artwork_Espada_29.webp">
+    </header>
+    <p>Kirby (カービイ Kābī en Japonés) es un personaje de la gran empresa Nintendo y protagonista de una serie de juegos
+      con su mismo nombre. Fue creado por Masahiro Sakurai. Hizo su primera aparición en 1992 en la consola portátil de
+      Game
+      Boy. Desde ese entonces Kirby apareció en diferentes consolas con juegos en 2D hasta que salió Kirby 64: The
+      Crystal
+      Shards,donde se puede apreciar a Kirby en 3D. Kirby también cuenta con una serie de anime: Kirby: Right Back at
+      Ya!, que
+      salió al aire el 6 de octubre de 2001. Es reconocido por su forma redonda y su característico color rosado.
+    </p>
+  </div>
+  <br>
+  <form id="formulario">
+    <P>
+      Te interesaria unirte a los fans de Kirby?
+    </P>
+    <p>Si?
+      <input type="checkbox" name="Si?">
+      <label for="fullName">Nombre Completo:</label>
+      <input type="text" id="fullName" name="fullName" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+" required>
+      <span class="error" id="nameError">Solo se permiten letras y espacios.</span>
+      <br>
+      <label for="birthDate">Edad:</label>
+      <input type="number" id="edad" name="edad" pattern="1234567890" required>
+      <br>
+      <label for="birthDate">Fecha de Nacimiento:</label>
+      <input type="date" id="birthDate" name="birthDate" required>
+      <br>
+      <input type="submit" value="Enviar">
+</body>
+
+</html>
